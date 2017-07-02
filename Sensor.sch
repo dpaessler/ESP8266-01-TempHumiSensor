@@ -10606,10 +10606,10 @@ Source: e_os_all.pdf</description>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="96.52" y="50.8" rot="R180"/>
-<instance part="X2" gate="G$1" x="27.94" y="68.58"/>
+<instance part="X2" gate="G$1" x="20.32" y="68.58"/>
 <instance part="IC1" gate="G$1" x="58.42" y="73.66"/>
 <instance part="GND1" gate="1" x="58.42" y="53.34"/>
-<instance part="GND2" gate="1" x="40.64" y="60.96"/>
+<instance part="GND2" gate="1" x="35.56" y="60.96"/>
 <instance part="GND5" gate="1" x="147.32" y="27.94"/>
 <instance part="GND6" gate="1" x="83.82" y="58.42"/>
 <instance part="GND7" gate="1" x="43.18" y="33.02"/>
@@ -10629,7 +10629,7 @@ Source: e_os_all.pdf</description>
 <instance part="PAD1" gate="G$1" x="43.18" y="40.64" rot="R270"/>
 <instance part="FLASH" gate="G$1" x="48.26" y="40.64" rot="R270"/>
 <instance part="C1" gate="G$1" x="43.18" y="68.58"/>
-<instance part="GND2" gate="2" x="48.26" y="58.42"/>
+<instance part="GND2" gate="2" x="43.18" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -10666,8 +10666,8 @@ Source: e_os_all.pdf</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="38.1" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="66.04" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="66.04" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -10710,8 +10710,6 @@ Source: e_os_all.pdf</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="GND2" gate="2" pin="GND"/>
-<wire x1="43.18" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="63.5" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -10766,7 +10764,7 @@ Source: e_os_all.pdf</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="VBUS"/>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
-<wire x1="38.1" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="43.18" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
